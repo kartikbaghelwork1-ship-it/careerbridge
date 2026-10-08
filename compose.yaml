@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    volumes: ["careerbridge-data:/data"]
+    environment:
+      SECURE_COOKIES: "false"
+    restart: unless-stopped
+volumes:
+  careerbridge-data:

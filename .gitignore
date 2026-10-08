@@ -1,0 +1,28 @@
+# Local environments and dependencies
+.venv/
+venv/
+env/
+node_modules/
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local database and generated files
+backend/data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+# Editor and platform files
+.DS_Store
+.idea/
+.vscode/
+.openai/
+*.zip

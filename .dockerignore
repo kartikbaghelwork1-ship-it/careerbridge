@@ -1,0 +1,6 @@
+.git
+.openai
+backend/data
+**/__pycache__
+.venv
+*.zip
